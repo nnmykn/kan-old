@@ -8,9 +8,6 @@ export default function Home() {
               <span className={'text-[#D85309]'}>Kan</span> Ninomiya
               <span className={'ml-2'}>(18)</span>
             </h2>
-            <h3 className={'text-lg text-white'}>
-              二宮 貫<span className={'ml-1'}>🚀⛰️</span>
-            </h3>
           </div>
           <p className={'text-white text-sm'}>
             幼少期からPCを触り始め、小学校低学年よりプログラミングを開始、中学生で初めてWebサービスのリリースを経験。
