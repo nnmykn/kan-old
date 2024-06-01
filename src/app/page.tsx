@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main>
       <div className={'w-screen h-screen flex items-center justify-center'}>
-        <div className={'max-w-screen m-8 md:max-w-[50vw] md:m-24'}>
+        <div className={'max-w-screen m-8 md:max-w-[30vw] md:m-24'}>
           <div className={'mb-4 flex flex-col gap-2'}>
             <h2 className={'font-extrabold text-4xl'}>
               <span className={'text-[#D85309]'}>Kan</span> Ninomiya
