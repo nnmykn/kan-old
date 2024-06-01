@@ -1,4 +1,22 @@
+'use client'
+
 export default function Home() {
+  function calculateYearsSince(dateString: string): number {
+    const startDate = new Date(dateString);
+    const currentDate = new Date();
+
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+
+    const startDateThisYear = new Date(currentDate.getFullYear(), startDate.getMonth(), startDate.getDate());
+    if (currentDate < startDateThisYear) {
+      years--;
+    }
+
+    return years;
+  }
+
+  const yearsSince = calculateYearsSince("2005-10-11");
+
   return (
     <main>
       <div className={'w-screen h-screen flex items-center justify-center'}>
@@ -6,7 +24,7 @@ export default function Home() {
           <div className={'mb-4 flex flex-col gap-2'}>
             <h2 className={'font-extrabold text-4xl'}>
               <span className={'text-[#D85309]'}>Kan</span> Ninomiya
-              <span className={'ml-2'}>(18)</span>
+              <span className={'ml-2'}>({yearsSince})</span>
             </h2>
           </div>
           <div>
