@@ -40,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className={`${lineSeedFont.className}`}>
-      <body className={'bg-black'}>{children}</body>
+      <body className={''}>{children}</body>
     </html>
   )
 }

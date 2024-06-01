@@ -4,12 +4,12 @@ export default function Home() {
       <div className={'w-screen h-screen flex items-center justify-center'}>
         <div className={'max-w-screen m-8 md:max-w-[50vw] md:m-24'}>
           <div className={'mb-4 flex flex-col gap-2'}>
-            <h2 className={'font-extrabold text-4xl text-white'}>
+            <h2 className={'font-extrabold text-4xl'}>
               <span className={'text-[#D85309]'}>Kan</span> Ninomiya
               <span className={'ml-2'}>(18)</span>
             </h2>
           </div>
-          <p className={'text-white text-sm'}>
+          <p className={'text-sm'}>
             幼少期からPCを触り始め、小学校低学年よりプログラミングを開始、中学生で初めてWebサービスのリリースを経験。
             <br />
             新規サービス開発を得意としており、マーケティングから実装に至るまで幅広い分野の知見があります。
