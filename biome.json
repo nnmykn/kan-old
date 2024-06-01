@@ -34,7 +34,7 @@
   "files": {
     "ignore": [
       ".next",
-      "src/client/components/ui",
+      "src/components/ui",
       ".vercel",
       ".wrangler",
       "node_modules"
